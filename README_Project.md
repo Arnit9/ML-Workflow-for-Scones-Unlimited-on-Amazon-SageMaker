@@ -65,6 +65,7 @@ Throughout this project, I've applied the following skills:
 - Created and managed AWS Lambda functions.
 - Designed and implemented Step Functions to compose Lambda workflows.
 - Monitored and evaluated model performance using SageMaker Model Monitor.
+- Visualized and interpreted Model Monitor data.
 
 ----
 1. The **Serialize Image Data Lambda Function** takes the address of an image hosted in S3, then serializes and returns a JSON
@@ -79,6 +80,5 @@ as a JSON Object.
 ## Step Function Table View Output
 ![](https://github.com/Arnit9/ML-Workflow-for-Scones-Unlimited-on-Amazon-SageMaker/blob/master/images/stepfunction-tableview.png)
 
-- Visualized and interpreted Model Monitor data.
-
+---
 Feel free to connect for any inquiries or insights. Happy building and scone-classifying! 🥐🤖
