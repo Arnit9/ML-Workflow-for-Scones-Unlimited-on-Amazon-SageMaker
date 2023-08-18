@@ -25,7 +25,7 @@ pip install jupyterlab
 
 ## Project Overview 📋
 
-In this project, you will design and implement a scalable image classification model using Amazon SageMaker. Your goal is to create a workflow that can distinguish between bicycles and motorcycles, thus aiding Scones Unlimited in assigning delivery professionals to appropriate orders. The project unfolds in several key steps:
+In this project, I've designed and implemented a scalable image classification model using Amazon SageMaker. My goal was to create a workflow that can distinguish between bicycles and motorcycles, thus aiding Scones Unlimited in assigning delivery professionals to appropriate orders. The project unfolds in several key steps:
 
 ### Step 1: Data Staging 📂
 
