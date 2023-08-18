@@ -31,7 +31,7 @@ In this project, I've designed and implemented a scalable image classification m
 
 - Set up a SageMaker Studio workspace.
 - Prepared and loaded the data into SageMaker.
-- Ensured the data is preprocessed and ready for machine learning.
+- Ensured the data is preprocessed and ready for training.
 
 ### Step 2: Model Training and Deployment 🚀
 
