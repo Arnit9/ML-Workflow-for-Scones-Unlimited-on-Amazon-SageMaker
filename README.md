@@ -9,45 +9,41 @@ In this project, you will design and implement a scalable image classification m
 ### Step 1: Data Staging 📂
 
 - Set up a SageMaker Studio workspace.
-- Prepare and load the data into SageMaker.
-- Ensure the data is preprocessed and ready for machine learning.
+- Prepared and loaded the data into SageMaker.
+- Ensured the data is preprocessed and ready for machine learning.
 
 ### Step 2: Model Training and Deployment 🚀
 
-- Train a machine learning model on SageMaker.
-- Deploy the trained model as an API endpoint.
-- Construct an API endpoint that's linked to the deployed model.
+- Trained a machine learning model on SageMaker.
+- Deployed the trained model as an API endpoint.
+- Constructed an API endpoint that's linked to the deployed model.
 
 ### Step 3: Lambdas and Step Function Workflow ⚙️
 
-- Develop three Lambda functions to orchestrate the workflow:
+- Developed three Lambda functions to orchestrate the workflow:
   1. Retrieve image data as an event.
   2. Perform image classification.
   3. Filter out low-confidence inferences.
-- Create a Step Function to weave the Lambdas into a seamless workflow.
+- Created a Step Function to weave the Lambdas into a seamless workflow.
 
 ### Step 4: Testing and Evaluation 🧪
 
-- Rigorously test and evaluate the performance of your ML workflow.
-- Ensure the classification model achieves a test accuracy above **94%**.
+- Rigorously tested and evaluated the performance of your ML workflow.
+- Ensured the classification model achieves a test accuracy above **94%**.
 
-### Step 5: Optional Challenge 🏆
+### Step 5: Cleanup Cloud Resources ♻️
 
-- Take on an optional challenge to further enhance your project's capabilities.
-
-### Step 6: Cleanup Cloud Resources ♻️
-
-- Wrap up the project by cleaning up unnecessary cloud resources.
+- Wraped up the project by cleaning up unnecessary cloud resources.
 
 ## Skills Applied 🧠
 
 Throughout this project, I've applied the following skills:
 
-- Utilize SageMaker Studio for a productive ML environment.
-- Train and deploy ML models on SageMaker.
-- Create and manage AWS Lambda functions.
-- Design and implement Step Functions to compose Lambda workflows.
-- Monitor and evaluate model performance using SageMaker Model Monitor.
-- Visualize and interpret Model Monitor data.
+- Utilized SageMaker Studio for a productive ML environment.
+- Trained and deployed ML models on SageMaker.
+- Created and managed AWS Lambda functions.
+- Designed and implemented Step Functions to compose Lambda workflows.
+- Monitored and evaluated model performance using SageMaker Model Monitor.
+- Visualized and interpreted Model Monitor data.
 
 Feel free to connect for any inquiries or insights. Happy building and scone-classifying! 🥐🤖
