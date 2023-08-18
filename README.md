@@ -13,7 +13,7 @@ This project is a part of the Assessment in the Udacity's AWS Machine Learning E
 ### Dependencies
 
 ```
-Python 3.7
+Python 3.8
 scikit-learn latest
 ```
 
@@ -26,26 +26,21 @@ For local development, you will need to setup a jupyter lab instance.
 ```
 pip install jupyterlab
 ```
-* There are also docker containers containing jupyter lab from [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html).
 
 ## Scones Unlimited
 
 The motive of the project is to build a Machine Learning Model that performs image classification through ML workflows using Amazon's Sage Maker. The Step Functions 
 linked with the lambda scripts are used to automate various tasks of Machine Learning process from Data Preparation, Model Creation, Model Deployment and Inference.
 
-1. The [Serialize Image Data Lambda Function](lambda%20functions/serializeImageData.py) takes the address of an image hosted in S3, then serializes and returns a JSON
+1. The **Serialize Image Data Lambda Function** takes the address of an image hosted in S3, then serializes and returns a JSON
 object.
-2. The [Infer Serialized Image Data](lambda%20functions/inferSerializedImageData.py) takes the JSON object returned from 1 and passes it to an end point and collectd the result
+2. The **Infer Serialized Image Data** takes the JSON object returned from 1 and passes it to an end point and collectd the result
 as a JSON Object.
-3. The [Filter Results Lambda Function](lambda%20functions/filterResults.py) takes the inference data from 2 and filters only the images that meet the defined threshold.  
+3. The **Filter Results Lambda Function** takes the inference data from 2 and filters only the images that meet the defined threshold.  
 
-## Execution Flow of the Step Function 
-![Execution Event History of ML Workflow](images/2021-12-21_23h00_19.png "Execution Event History")
+## Step Functions Output Graph
+![](https://github.com/Arnit9/ML-Workflow-for-Scones-Unlimited-on-Amazon-SageMaker/blob/master/images/stepfunction-graph.png)
 
-## Step Functions Graph
-![Step Functions Graph](images/stepfunctions_graph%20.png "Step Functions") ![Step Functions Graph Working](images/stepfunctions_graph_working.png "Step Functions - After Execution")
+## Step Function Table View Output
+![](https://github.com/Arnit9/ML-Workflow-for-Scones-Unlimited-on-Amazon-SageMaker/blob/master/images/stepfunction-tableview.png)
 
-## Step Function Output
-![Step Function Output](images/Step-Function-Output.png)
-## License
-[License](LICENSE.txt)
